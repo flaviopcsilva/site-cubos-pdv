@@ -1,0 +1,22 @@
+nav {
+    width: 500px;
+    margin: 20px auto;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+img {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    margin: 90px;
+    left: 420px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
