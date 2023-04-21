@@ -5,12 +5,13 @@ nav {
     text-align: center;
 }
 
-img {
-    position: fixed;
-    height: 50px;
-    width: 50px;
-    margin: 90px;
-    left: 420px;
+.imgLogo {
+
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    margin: 99px;
+    left: 620px;
 }
 
 h1 {
