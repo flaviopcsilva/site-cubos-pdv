@@ -5,10 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login-usuario.css" />
     <title>LOGIN</title>
 </head>
 
 <body>
+
+    <nav class="navegador">
+        <h2>
+            <a href="../index.html">Home</a>
+            <a href="./cadastro-usuario.html">Cadastro</a>
+            <a href="./listar-categoria.html">Listar Categorias</a>
+        </h2>
+    </nav>
+
+    <header class="cabecalho">
+        LOGIN USUÁRIO
+    </header>
+
+
+
+    <div class="divLogin">
+        <form class="formLogin">
+            <p>Email: <input type="text" id="email"></p>
+            <p>Senha: <input type="password" id="senha"></p>
+            <p><input type="button" id="enviar" value="ENVIAR"></p>
+        </form>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="./script/login.js"></script>
+
 
 </body>
 
