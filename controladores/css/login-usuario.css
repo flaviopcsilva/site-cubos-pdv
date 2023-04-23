@@ -1,0 +1,29 @@
+.cabecalho {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+.navegador {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    color: #000000;
+    display: inline;
+    text-decoration: #000000;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+.formLogin {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#resultado {
+    text-align: center;
+    color: red;
+}
