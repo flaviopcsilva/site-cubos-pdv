@@ -62,6 +62,11 @@ const enviarDadosParaAPI = async (usuario) => {
             divResultado.innerHTML = `TOKEN: ${token.token}`
         }
 
+        if (resposta.status === 302) {
+            divResultado.innerHTML = `Email não tem formato válido ou \n
+            senha menor que 3 caracteres!`
+        }
+
     } catch (error) {
         console.error(error)
 
