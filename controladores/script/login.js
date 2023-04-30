@@ -2,6 +2,8 @@ const btnEnviar = document.querySelector('#enviar')
 const email = document.querySelector('#email')
 const senha = document.querySelector('#senha')
 const divResultado = document.querySelector('#resultado')
+//const divToken = document.getElementById('token')
+
 
 
 btnEnviar.addEventListener('click', () => {
@@ -11,6 +13,7 @@ btnEnviar.addEventListener('click', () => {
     //const usuario = getDadosForm()
     // enviar os dados para api
     enviarDadosParaAPI(usuario)
+    //divToken.innerHTML = 'deu certo'
 
 
 })
@@ -43,9 +46,15 @@ const enviarDadosParaAPI = async (usuario) => {
 
 
         })
-        const token = await resposta.json()
 
 
+        if (resposta.status === 201) {
+            const token = await resposta.json()
+
+            localStorage.setItem('token', token.token)
+            window.alert('Usuário logado com sucesso.')
+            window.location.href = '../index.html'
+        }
 
 
 
@@ -54,7 +63,7 @@ const enviarDadosParaAPI = async (usuario) => {
             divResultado.innerHTML = 'Email ou senha Invávidos!'
         }
         if (resposta.status === 400) {
-            divResultado.innerHTML = `Erro interno do servidor`
+            divResultado.innerHTML = `Usuário ou senha inválidos`
         }
 
         if (resposta.status === 201) {
@@ -66,6 +75,8 @@ const enviarDadosParaAPI = async (usuario) => {
             divResultado.innerHTML = `Email não tem formato válido ou \n
             senha menor que 3 caracteres!`
         }
+
+
 
     } catch (error) {
         console.error(error)

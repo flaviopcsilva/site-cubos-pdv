@@ -1,7 +1,7 @@
 const divCategorias = document.querySelector('#categorias')
 
 async function consultaCategorias() {
-    const retorno = await fetch('https://cubos-pdv.cyclic.app/categoria')
+    const retorno = await fetch('https://pdv-cubos-hml.onrender.com/categoria')
     const categorias = await retorno.json()
     preencheTela(categorias)
 }
