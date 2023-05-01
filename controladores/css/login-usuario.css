@@ -1,4 +1,23 @@
+body {
+    background-image: url('/imagens/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .cabecalho {
+    position: fixed;
+    top: 20%;
+    /* Define a posição vertical como 50% */
+    left: 50%;
+    /* Define a posição horizontal como 50% */
+    transform: translate(-50%, -50%);
+    /* Centraliza a div completamente */
+    z-index: 2;
+    /* Define um valor de z-index mais alto para a div com conteúdo */
+
+    padding: 20px;
+
+
     text-align: center;
     font-style: normal;
     font-weight: bold;
@@ -7,6 +26,19 @@
 }
 
 .navegador {
+
+    position: fixed;
+    top: 12%;
+    /* Define a posição vertical como 50% */
+    left: 50%;
+    /* Define a posição horizontal como 50% */
+    transform: translate(-50%, -50%);
+    /* Centraliza a div completamente */
+    z-index: 2;
+    /* Define um valor de z-index mais alto para a div com conteúdo */
+
+    padding: 20px;
+
     text-transform: uppercase;
     text-align: center;
     font-size: 12px;
@@ -18,12 +50,26 @@
 }
 
 .formLogin {
+    position: fixed;
+    top: 35%;
+    /* Define a posição vertical como 50% */
+    left: 50%;
+    /* Define a posição horizontal como 50% */
+    transform: translate(-50%, -50%);
+    /* Centraliza a div completamente */
+    z-index: 3;
+    /* Define um valor de z-index mais alto para a div com conteúdo */
+
+    padding: 20px;
+
+
     text-align: center;
     font-style: italic;
     font-size: 18px;
 }
 
 #resultado {
+    margin: 220px;
     text-align: center;
     color: red;
 }

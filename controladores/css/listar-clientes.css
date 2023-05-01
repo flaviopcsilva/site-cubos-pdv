@@ -1,3 +1,9 @@
+body {
+    background-image: url('/imagens/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #home {
     position: fixed;
     bottom: 20px;
@@ -5,17 +11,22 @@
 }
 
 .cabecalho {
+    background-color: white;
     text-align: center;
     position: fixed;
     top: 1%;
     width: 100%;
     z-index: 1;
 
+
 }
 
 .texto-topo {
+    text-align: center;
+    background-color: white;
+
     position: fixed;
-    top: 5%;
+    top: 11%;
     /* Define a posição vertical como 50% */
     left: 50%;
     /* Define a posição horizontal como 50% */
@@ -23,16 +34,16 @@
     /* Centraliza a div completamente */
     z-index: 2;
     /* Define um valor de z-index mais alto para a div com conteúdo */
+    padding: 1%;
 
-    padding: 20px;
-    /* Define um espaçamento interno para a div com conteúdo */
+
 }
 
 
 #res {
     width: 80%;
     /* Define a largura da div centralizada */
-    margin: 58px auto 0;
+    margin: 135px auto 0;
     /* Define a margem superior de 50px, a margem inferior automática e a margem lateral automática para centralizar a div */
     text-align: center;
     /* Centraliza o conteúdo dentro da div */

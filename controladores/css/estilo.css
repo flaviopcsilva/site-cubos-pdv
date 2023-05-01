@@ -1,22 +1,39 @@
+body {
+    background-image: url('/imagens/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .cabecalho {
+    position: fixed;
     text-align: center;
+    z-index: 1;
 }
 
 nav {
+    position: fixed;
+    top: 30%;
+    /* Define a posição vertical como 50% */
+    left: 50%;
+    /* Define a posição horizontal como 50% */
+    transform: translate(-50%, -50%);
+    /* Centraliza a div completamente */
+    z-index: 2;
+    /* Define um valor de z-index mais alto para a div com conteúdo */
+
+    padding: 20px;
+    /* Define um espaçamento interno para a div com conteúdo */
+
+
+
     width: 500px;
     margin: 20px auto;
     padding: 5px 50px;
     text-align: center;
 }
 
-.imgLogo {
 
-    position: absolute;
-    height: 20%;
-    width: 20%;
-    margin: 99px;
-    left: 620px;
-}
 
 h1 {
     text-align: center;
