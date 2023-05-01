@@ -26,7 +26,7 @@ body {
     background-color: white;
 
     position: fixed;
-    top: 11%;
+    top: 15%;
     /* Define a posição vertical como 50% */
     left: 50%;
     /* Define a posição horizontal como 50% */
@@ -41,9 +41,10 @@ body {
 
 
 #res {
-    width: 80%;
+    padding-top: 20%;
+
     /* Define a largura da div centralizada */
-    margin: 135px auto 0;
+
     /* Define a margem superior de 50px, a margem inferior automática e a margem lateral automática para centralizar a div */
     text-align: center;
     /* Centraliza o conteúdo dentro da div */

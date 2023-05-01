@@ -25,12 +25,12 @@ body {
     z-index: 2;
     /* Define um valor de z-index mais alto para a div com conteúdo */
 
-    padding: 20px;
 
 
 
-    width: 800px;
-    margin: 0 auto;
+
+
+
 
     text-transform: uppercase;
     text-align: center;
@@ -47,13 +47,23 @@ body {
 
 .cat {
 
-    padding-top: 15%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
 
 
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    margin: 5% 1%;
     text-align: center;
 }
 
 .categorias {
-    padding-top: 1%;
+
+    margin-top: 30%;
+    margin-left: 5%;
+
+
     text-align: center;
 }
