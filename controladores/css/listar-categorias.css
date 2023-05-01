@@ -16,15 +16,14 @@ body {
 
 .nav-links {
     position: fixed;
-    top: 20%;
-    /* Define a posição vertical como 50% */
+    padding-top: 30%;
     left: 50%;
     /* Define a posição horizontal como 50% */
     transform: translate(-50%, -50%);
     /* Centraliza a div completamente */
     z-index: 2;
     /* Define um valor de z-index mais alto para a div com conteúdo */
-    width: 500px;
+
     text-transform: uppercase;
     text-align: center;
     font-size: 22px;
@@ -35,7 +34,7 @@ body {
 
 
 .cat {
-    padding-top: 15%;
+    padding-top: 30%;
     text-align: center;
 }
 
