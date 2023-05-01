@@ -83,7 +83,17 @@ body {
 }
 
 #resultado {
-    margin: 275px;
-    text-align: center;
+
+    position: fixed;
+    top: 50%;
+    /* Define a posição vertical como 50% */
+    left: 50%;
+    /* Define a posição horizontal como 50% */
+    transform: translate(-50%, -50%);
+    /* Centraliza a div completamente */
+    z-index: 3;
+    /* Define um valor de z-index mais alto para a div com conteúdo */
+
+    padding: 20px;
     color: red;
 }
