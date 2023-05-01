@@ -1,4 +1,13 @@
 const divCategorias = document.querySelector('#categorias')
+const btnVoltar = document.querySelector('#home')
+
+window.addEventListener('scroll', function () {
+    btnVoltar.style.top = window.innerHeight - myButton.offsetHeight - 20 + 'px';
+})
+
+btnVoltar.addEventListener('click', () => {
+    window.location.href = '../index.html'
+})
 
 async function consultaCategorias() {
     const retorno = await fetch('https://pdv-cubos-hml.onrender.com/categoria')

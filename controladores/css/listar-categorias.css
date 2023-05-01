@@ -5,40 +5,28 @@ body {
 }
 
 .topo1 {
-    background-color: white;
-    margin-top: 1%;
-    text-align: center;
+    padding: 1px;
     position: fixed;
-    top: 1%;
     width: 100%;
-    z-index: 1;
-}
-
-.nav-links {
-    position: fixed;
-    padding-top: 40%;
-    left: 50%;
-    /* Define a posição horizontal como 50% */
-    transform: translate(-50%, -50%);
-    /* Centraliza a div completamente */
-    z-index: 2;
-    /* Define um valor de z-index mais alto para a div com conteúdo */
-
-    text-transform: uppercase;
-    text-align: center;
     font-size: 22px;
-
-
-
+    text-align: center;
 }
+
+
 
 
 .cat {
-    padding-top: 30%;
+    padding-top: 20%;
     text-align: center;
 }
 
 .categorias {
     padding-top: 1%;
     text-align: center;
+}
+
+#home {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
