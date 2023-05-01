@@ -24,14 +24,7 @@ body {
     /* Centraliza a div completamente */
     z-index: 2;
     /* Define um valor de z-index mais alto para a div com conteúdo */
-
-
-
-
-
-
-
-
+    width: 500px;
     text-transform: uppercase;
     text-align: center;
     font-size: 22px;
