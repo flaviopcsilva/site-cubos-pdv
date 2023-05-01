@@ -4,6 +4,17 @@ body {
     background-size: cover;
 }
 
+.topo1 {
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    top: 1%;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
 .cabecalho {
     position: fixed;
     top: 20%;
