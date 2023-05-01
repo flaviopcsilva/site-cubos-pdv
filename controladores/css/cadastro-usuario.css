@@ -47,12 +47,13 @@ h2 {
     /* Centraliza a div completamente */
     z-index: 3;
     text-align: center;
+    width: 500px;
 
 
 }
 
 form {
-    margin: 150px;
+    padding-top: 26%;
     text-align: center;
 
 }
