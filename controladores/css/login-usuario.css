@@ -26,7 +26,7 @@ body {
     z-index: 2;
     /* Define um valor de z-index mais alto para a div com conteúdo */
 
-    padding: 20px;
+
 
 
     text-align: center;
@@ -45,7 +45,7 @@ body {
     /* Define a posição horizontal como 50% */
     transform: translate(-50%, -50%);
     /* Centraliza a div completamente */
-    z-index: 2;
+    z-index: 3;
     /* Define um valor de z-index mais alto para a div com conteúdo */
 
     padding: 20px;
@@ -65,16 +65,16 @@ body {
 
 .formLogin {
     position: fixed;
-    top: 38%;
+    top: 40%;
     /* Define a posição vertical como 50% */
     left: 50%;
     /* Define a posição horizontal como 50% */
     transform: translate(-50%, -50%);
     /* Centraliza a div completamente */
-    z-index: 3;
+    z-index: 4;
     /* Define um valor de z-index mais alto para a div com conteúdo */
 
-    padding: 20px;
+
 
 
     text-align: center;
@@ -85,15 +85,15 @@ body {
 #resultado {
 
     position: fixed;
-    top: 50%;
+    top: 60%;
     /* Define a posição vertical como 50% */
     left: 50%;
     /* Define a posição horizontal como 50% */
     transform: translate(-50%, -50%);
     /* Centraliza a div completamente */
-    z-index: 3;
+    z-index: 5;
     /* Define um valor de z-index mais alto para a div com conteúdo */
 
-    padding: 20px;
+
     color: red;
 }
