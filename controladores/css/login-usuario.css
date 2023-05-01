@@ -1,7 +1,7 @@
 body {
-    background-image: url('/imagens/fundo3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('/imagens/fundonovo.png');
+    background-repeat: repeat;
+    background-size: auto;
 }
 
 .topo1 {
@@ -17,7 +17,7 @@ body {
 
 .cabecalho {
     position: fixed;
-    top: 20%;
+    top: 23%;
     /* Define a posição vertical como 50% */
     left: 50%;
     /* Define a posição horizontal como 50% */
@@ -39,7 +39,7 @@ body {
 .navegador {
 
     position: fixed;
-    top: 12%;
+    top: 15%;
     /* Define a posição vertical como 50% */
     left: 50%;
     /* Define a posição horizontal como 50% */
@@ -62,7 +62,7 @@ body {
 
 .formLogin {
     position: fixed;
-    top: 35%;
+    top: 38%;
     /* Define a posição vertical como 50% */
     left: 50%;
     /* Define a posição horizontal como 50% */
@@ -80,7 +80,7 @@ body {
 }
 
 #resultado {
-    margin: 220px;
+    margin: 275px;
     text-align: center;
     color: red;
 }
