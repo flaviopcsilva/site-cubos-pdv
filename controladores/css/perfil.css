@@ -4,13 +4,19 @@ body {
     background-size: auto;
 }
 
-nav {
+.topo1 {
+    background-color: white;
+
     text-align: center;
-    width: 500px;
-    margin: 20px auto;
-    padding: 5px 50px;
+    position: fixed;
+    top: 1%;
+    width: 100%;
+    z-index: 1;
 }
 
-h3 {
+
+.res {
     text-align: center;
+    padding-top: 10%;
+
 }
