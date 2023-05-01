@@ -1,5 +1,13 @@
 const btnVoltar = document.querySelector('#home')
 const divRes = document.querySelector('#res')
+
+
+window.addEventListener('scroll', function () {
+    btnVoltar.style.top = window.innerHeight - myButton.offsetHeight - 20 + 'px';
+})
+
+
+
 // Verifica se o token está presente no LocalStorage
 if (!localStorage.getItem('token')) {
     // Redireciona o usuário para a página de login
@@ -38,7 +46,7 @@ async function consultaCategorias() {
 function preencheTela(categorias) {
     categorias.forEach(categoria => {
         const novaCategoriaHTML = `
-    <div  align="center" class="livro">
+    <div  class="livro">
     <h3>ID: ${categoria.id}</h3>
     <p><h4>Nome: ${categoria.nome}</h4></p>
     <p><h4>Email: ${categoria.email}</h4></p>
