@@ -1,3 +1,9 @@
+body {
+    background-image: url('/imagens/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 nav {
     width: 500px;
     margin: 20px auto;

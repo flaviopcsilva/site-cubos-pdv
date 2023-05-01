@@ -1,3 +1,10 @@
+body {
+    background-image: url('/imagens/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .cabecalho {
     position: fixed;
     text-align: center;
