@@ -1,0 +1,39 @@
+#home {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.cabecalho {
+    text-align: center;
+    position: fixed;
+    top: 1%;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.texto-topo {
+    position: fixed;
+    top: 5%;
+    /* Define a posição vertical como 50% */
+    left: 50%;
+    /* Define a posição horizontal como 50% */
+    transform: translate(-50%, -50%);
+    /* Centraliza a div completamente */
+    z-index: 2;
+    /* Define um valor de z-index mais alto para a div com conteúdo */
+
+    padding: 20px;
+    /* Define um espaçamento interno para a div com conteúdo */
+}
+
+
+#res {
+    width: 80%;
+    /* Define a largura da div centralizada */
+    margin: 58px auto 0;
+    /* Define a margem superior de 50px, a margem inferior automática e a margem lateral automática para centralizar a div */
+    text-align: center;
+    /* Centraliza o conteúdo dentro da div */
+}
