@@ -28,35 +28,18 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-size: 22px;
-    color: #000000;
-    display: inline;
-    text-decoration: #000000;
-    text-decoration-line: none;
-    font-weight: bold;
+
 
 
 }
 
 
 .cat {
-
-    position: absolute;
-    top: 25%;
-    left: 50%;
-
-
-    transform: translate(-50%, -50%);
-    z-index: 2;
-
-    margin: 5% 1%;
+    padding-top: 15%;
     text-align: center;
 }
 
 .categorias {
-
-    margin-top: 45%;
-    margin-left: 5%;
-
-
+    padding-top: 1%;
     text-align: center;
 }
