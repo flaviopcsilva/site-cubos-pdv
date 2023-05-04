@@ -12,7 +12,7 @@ if (!localStorage.getItem('token')) {
 const token = localStorage.getItem('token')
 
 // Envia uma solicitação GET para a rota protegida com o token de autenticação
-fetch('https://pdv-cubos-hml.onrender.com/cliente', {
+fetch('https://pvd-cubos.vercel.app/cliente', {
     headers: {
         Authorization: `Bearer ${token}`
     }

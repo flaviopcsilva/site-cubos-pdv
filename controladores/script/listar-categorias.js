@@ -10,7 +10,7 @@ btnVoltar.addEventListener('click', () => {
 })
 
 async function consultaCategorias() {
-    const retorno = await fetch('https://pdv-cubos-hml.onrender.com/categoria')
+    const retorno = await fetch('https://pvd-cubos.vercel.app/categoria')
     const categorias = await retorno.json()
     preencheTela(categorias)
 }

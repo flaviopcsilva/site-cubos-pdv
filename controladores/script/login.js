@@ -36,7 +36,7 @@ const dadosDoFormulario = () => {
 const enviarDadosParaAPI = async (usuario) => {
     let res = ''
     try {
-        const resposta = await fetch('https://pdv-cubos-hml.onrender.com/login', {
+        const resposta = await fetch('https://pvd-cubos.vercel.app/login', {
             method: 'POST',
             headers: {
                 Accept: 'application/json',

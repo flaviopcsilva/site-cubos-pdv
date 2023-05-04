@@ -28,7 +28,7 @@ btnVoltar.addEventListener('click', () => {
 
 
 async function consultaCategorias() {
-    const retorno = await fetch('https://pdv-cubos-hml.onrender.com/cliente', {
+    const retorno = await fetch('https://pvd-cubos.vercel.app/cliente', {
         headers: {
             Authorization: `Bearer ${token}`
         }

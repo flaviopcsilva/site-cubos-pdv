@@ -40,7 +40,7 @@ function getDadosForm() {
 
 async function enviarDadosParaAPI(usuario) {
     try {
-        const resposta = await fetch('https://cubos-pdv.cyclic.app/usuario', {
+        const resposta = await fetch('https://pvd-cubos.vercel.app/usuario', {
             method: 'POST',
             headers: {
                 Accept: 'application/json',

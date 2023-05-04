@@ -53,7 +53,7 @@ async function consultaCategorias() {
 
 
 
-    const retorno = await fetch('https://pdv-cubos-hml.onrender.com/usuario', {
+    const retorno = await fetch('https://pvd-cubos.vercel.app/usuario', {
         headers: {
             Authorization: `Bearer ${token}`
         }
