@@ -14,20 +14,20 @@ function getDadosForm() {
     const txtEmail = document.querySelector('#email')
     const txtSenha = document.querySelector('#senha')
 
-    if (txtNome.value === "" || txtEmail.value === "" ||
-        txtSenha.value === "") {
-        // window.alert('Todos os campos devem ser preenchidos.')
+    // if (txtNome.value === "" || txtEmail.value === "" ||
+    //     txtSenha.value === "") {
+    //     // window.alert('Todos os campos devem ser preenchidos.')
 
-        divResultado.innerHTML = 'Todos os campos devem ser preenchidos.'
+    //     divResultado.innerHTML = 'Todos os campos devem ser preenchidos.'
 
-        txtNome.focus()
+    //     txtNome.focus()
 
 
 
-        console.log('campos vazios')
+    //     console.log('campos vazios')
 
-        return
-    }
+    //     return
+    // }
 
     const usuario = {
         nome: txtNome.value,
@@ -49,15 +49,14 @@ async function enviarDadosParaAPI(usuario) {
             body: JSON.stringify(usuario)
         })
 
-        if (resposta.status === 302) {
-            divResultado.innerHTML = `O campo email precisa ter um formato válido
-             ou senha contem menos de 5 caracteres`
+        if (resposta.status === 500) {
+            const msg = await resposta.json()
+            divResultado.innerHTML = JSON.stringify(msg)
+
         }
 
         if (resposta.status === 400) {
-            const msg = await resposta.json()
-            console.log('Erro ao adicionar curso', msg)
-            // window.alert('Email já foi cadastrado para outro usuário.')
+
             divResultado.innerHTML = 'Email já foi cadastrado para outro usuário.'
         }
         if (resposta.status === 201) {
@@ -70,6 +69,7 @@ async function enviarDadosParaAPI(usuario) {
         }
     } catch (erro) {
         console.error(erro)
+
     }
 }
 

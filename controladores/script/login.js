@@ -20,12 +20,7 @@ btnEnviar.addEventListener('click', () => {
 
 const dadosDoFormulario = () => {
 
-    if (email.value === '' || senha.value === '') {
-        // window.alert('Todos os campos devem ser preenchidos.')
-        divResultado.innerHTML = `Todos os campos devem ser preenchidos.`
-        email.focus()
-        return
-    }
+
     usuario = {
         email: email.value,
         senha: senha.value
@@ -58,7 +53,10 @@ const enviarDadosParaAPI = async (usuario) => {
 
 
 
-
+        if (resposta.status === 500) {
+            const msg = await resposta.json()
+            divResultado.innerHTML = JSON.stringify(msg)
+        }
         if (resposta.status === 404) {
             divResultado.innerHTML = 'Email ou senha Invávidos!'
         }
@@ -71,10 +69,7 @@ const enviarDadosParaAPI = async (usuario) => {
             divResultado.innerHTML = `TOKEN: ${token.token}`
         }
 
-        if (resposta.status === 302) {
-            divResultado.innerHTML = `Email não tem formato válido ou \n
-            senha menor que 3 caracteres!`
-        }
+
 
 
 
