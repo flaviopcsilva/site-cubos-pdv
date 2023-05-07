@@ -11,7 +11,8 @@ body {
 }
 
 .cabecalho img {
-    position: fixed;
+    display: block;
+    width: 100%;
 }
 
 .topo {
