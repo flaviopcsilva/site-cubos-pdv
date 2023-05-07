@@ -29,6 +29,10 @@ body {
 
 }
 
+.cabecalho nav {
+    text-align: center;
+}
+
 .topo nav li {
     display: inline;
 
@@ -48,11 +52,17 @@ body {
 }
 
 main {
-    background: linear-gradient(white, red);
+    background: linear-gradient(white, #808080);
+}
+
+.principal img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
-    background: linear-gradient(white, #808080);
+    background: #808080;
     padding: 2em 0 0;
 }
 
