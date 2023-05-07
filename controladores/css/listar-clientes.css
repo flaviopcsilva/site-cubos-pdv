@@ -68,6 +68,11 @@ main p {
     margin: 0 0;
 }
 
+main h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 #home {
     position: fixed;
     bottom: 20px;
