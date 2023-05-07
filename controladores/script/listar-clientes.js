@@ -46,7 +46,7 @@ async function consultaCategorias() {
 function preencheTela(categorias) {
     categorias.forEach(categoria => {
         const novaCategoriaHTML = `
-    <div  class="livro">
+    <div  >
     <h3>ID: ${categoria.id}</h3>
     <p><h4>Nome: ${categoria.nome}</h4></p>
     <p><h4>Email: ${categoria.email}</h4></p>
