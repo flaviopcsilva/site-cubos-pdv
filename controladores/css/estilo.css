@@ -1,44 +1,36 @@
-body {
-    background-image: url('/imagens/fundonovo.png');
-    background-repeat: repeat;
-    background-size: auto;
-}
-
-
 .cabecalho {
-    position: fixed;
-    text-align: center;
-    z-index: 1;
+    padding: 2px 2px 2px 0;
 }
 
-nav {
-    position: fixed;
-    top: 35%;
-    /* Define a posição vertical como 50% */
-    left: 50%;
-    /* Define a posição horizontal como 50% */
-    transform: translate(-50%, -50%);
-    /* Centraliza a div completamente */
-    z-index: 2;
-    /* Define um valor de z-index mais alto para a div com conteúdo */
+.topo {
 
-    padding: 20px;
-    /* Define um espaçamento interno para a div com conteúdo */
-
-
-
-    width: 500px;
-    margin: 20px auto;
-    padding: 5px 50px;
-    text-align: center;
+    width: 940px;
+    margin: 1px 0 1px 0;
 }
 
 
 
-h1 {
-    text-align: center;
+.links {
+    display: inline;
+    padding: 0 1px 0 1px;
+
+
 }
 
-a {
-    text-align: center;
+.topo nav li {
+    display: inline;
+
+}
+
+.topo nav li a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.topo nav li a:hover {
+    color: #C78C19;
+    text-decoration: underline;
 }

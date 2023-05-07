@@ -3,7 +3,7 @@ const hrefSair = document.querySelector('#sair')
 
 if (localStorage.getItem('token')) {
     // Redireciona o usuário para a página de login
-    hrefSair.style.display = 'block'
+    hrefSair.style.display = 'inline'
 
 } else {
     hrefSair.style.display = 'none';
