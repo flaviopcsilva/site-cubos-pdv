@@ -40,7 +40,7 @@ body {
 
 .topo nav li a {
     text-transform: uppercase;
-    color: #000000;
+    color: blue;
     font-weight: bold;
     font-size: 1em;
     text-decoration: none;
@@ -49,6 +49,7 @@ body {
 .topo nav li a:hover {
     color: #C78C19;
     text-decoration: underline;
+
 }
 
 main {
@@ -61,6 +62,9 @@ main {
     display: block;
     margin: 0 auto;
 }
+
+
+
 
 footer {
     background: #808080;
