@@ -1,15 +1,23 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
     /* Estilos para telas menores que 600px */
+}
+
+body {
+    background: white;
 }
 
 .cabecalho {
     padding: 2px 2px 2px 0;
 }
 
+.cabecalho img {
+    position: fixed;
+}
+
 .topo {
 
 
-    margin: 1px 0 1px 0;
+    margin: 70px 0 0;
 }
 
 
@@ -37,4 +45,24 @@
 .topo nav li a:hover {
     color: #C78C19;
     text-decoration: underline;
+}
+
+main {
+    background: linear-gradient(white, red);
+}
+
+footer {
+    background: linear-gradient(white, #808080);
+    padding: 2em 0 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer p::before {
+    content: "©";
 }
